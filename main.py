@@ -1,20 +1,9 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from services import api_test
 from services import ruterstop_test
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
     api_test.yr_test()
-    ruterstop_test.init_ruterstop()
+    if ruterstop_test.init_ruterstop() is True and ruterstop_test.ruterstop_cmd() is True:
+        print('ruterstop running')
 
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
