@@ -1,9 +1,17 @@
 from services import api_test
-from services import yr_constants
-
+from config import yr_constants
+import logging
+logging.basicConfig(level=logging.INFO)
+requests_log = logging.getLogger("requests.packages.urllib3")
+requests_log.setLevel(logging.DEBUG)
+requests_log.propagate = True
 
 if __name__ == '__main__':
     api_test.yr_test_api_health()
     api_test.yr_test_location(yr_constants.SKEI_LAT_LON)
     api_test.yr_multiple_location_test(yr_constants.YR_LOCATION_LIST)
-
+    api_test.yr_location_forecast_test(yr_constants.SKEI_LOCATION_ID)
+    api_test.yr_snow_test()
+    api_test.get_athlete_test()
+    api_test.get_activity_test()
+    api_test.get_activities_test()

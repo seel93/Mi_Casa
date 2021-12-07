@@ -22,6 +22,6 @@ docker build -t Mi_Casa .
 docker run Mi_Casa
 ``` 
 
-## channels:
+## Data sources:
 - yr
-- ruter
+- Strava
