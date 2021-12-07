@@ -1,0 +1,10 @@
+# Params:
+yr_headers = {"Accept": "application/json", "User-Agent": "1234567897"}
+
+# Locations:
+SKEI_LAT_LON = ['61.35088302715945', '10.088714770031027']
+HURRUNGANE_LAT_LON = ['61.47656933554466', '7.839013657366785']
+
+YR_LOCATION_LIST = [SKEI_LAT_LON, HURRUNGANE_LAT_LON]
+
+
