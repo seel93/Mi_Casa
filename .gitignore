@@ -1,1 +1,2 @@
 config/strava_constants.py
+config/db_credential.py

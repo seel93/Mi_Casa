@@ -1,16 +1,13 @@
 import requests
-import pprint
 from datetime import datetime
 from dao import weather_summary, location_forecast
-from services import strava_service, weather_service, snowdepth_service
+from services import strava_service, weather_service, snowdepth_service, avalanche_service
 from config import yr_constants
-
-pp = pprint.PrettyPrinter(indent=4)
 
 
 def yr_test_api_health():
-    res = requests.get('https://api.met.no/weatherapi/locationforecast/2.0/healthz', headers=yr_constants.YR_HEADERS)
-    print(res.content)
+    res = requests.get('https://api.met.no/weatherapi/locationforecast/2.0/healthz',
+                       headers=yr_constants.YR_HEADERS)
 
 
 def yr_test_location(payload_lat_lon):
@@ -39,8 +36,10 @@ def yr_location_forecast_test(location_id):
         forecast_list.append(
             location_forecast.LocationForecast(
                 dayInterval=location_forecast.DayInterval(
-                    datetime.strptime(i.get('start'), "%Y-%m-%dT%H:%M:%S%z"),
-                    datetime.strptime(i.get('end'), "%Y-%m-%dT%H:%M:%S%z"),
+                    datetime.strptime(i.get('start'),
+                                      '%Y-%m-%dT%H:%M:%S%z').date(),
+                    datetime.strptime(i.get('end'),
+                                      '%Y-%m-%dT%H:%M:%S%z').date(),
                     i.get('twentyFourHourSymbol'),
                     i.get('symbolConfidence')
                 ),
@@ -49,11 +48,14 @@ def yr_location_forecast_test(location_id):
                 wind=location_forecast.Wind(**i.get('wind'))
             )
         )
-    pp.pprint(forecast_list)
 
 
 def yr_snow_test():
-    print(snowdepth_service.get_snow_depths_for_region(yr_constants.ROMSDALEN_ID))
+    snowdepth_service.get_snow_depths_for_region(yr_constants.ROMSDALEN_ID)
+
+
+def avalanche_test():
+    avalanche_service.get_report_last_week()
 
 
 def get_athlete_test():

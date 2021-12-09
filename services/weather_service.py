@@ -1,6 +1,6 @@
-from config import yr_constants
 import requests
 import logging
+from config import yr_constants
 
 
 def yr_location_summary(payload_lat_lon):
@@ -12,7 +12,7 @@ def yr_location_summary(payload_lat_lon):
                            )
         return res.json()
     except requests.exceptions.HTTPError as err:
-        logging.error('yr location summary failed: {err}'.format(err=err))
+        logging.error(f'yr location summary failed: {err}')
         raise SystemExit(err)
 
 
@@ -25,11 +25,9 @@ def yr_multiple_locations_summary(location_list):
 
 def yr_location_forecast(location_id):
     try:
-        return requests.get('{url}/locations/{id}/forecast'.format(
-            url=yr_constants.YR_API_URL, id=location_id),
-            headers=yr_constants.YR_HEADERS
-        ).json()
+        return requests.get(f'{yr_constants.YR_API_URL}/locations/{location_id}/forecast',
+                            headers=yr_constants.YR_HEADERS
+                            ).json()
     except requests.exceptions.HTTPError as err:
-        logging.error('{url}/locations/{id}/forecast failed: {err}'.format(
-            url=yr_constants.YR_API_URL, id=location_id, err=err))
+        logging.error(f'{yr_constants.YR_API_URL}/locations/{location_id}/forecast failed: {err}')
         raise SystemExit(err)

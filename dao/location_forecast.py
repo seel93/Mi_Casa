@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from datetime import datetime
 
+
 @dataclass
 class DayInterval:
     start: datetime
@@ -35,4 +36,3 @@ class LocationForecast:
     precipitation: Precipitation
     temperature: Temperature
     wind: Wind
-
