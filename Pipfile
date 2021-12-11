@@ -8,6 +8,7 @@ requests = "*"
 pylint = "*"
 pymongo = "*"
 dnspython = "*"
+dataclasses-json = "*"
 
 [dev-packages]
 

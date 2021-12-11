@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime
-from dao import weather_summary, location_forecast
+from dao import weather_summary, location_forecast, avalanche_forecast
 from services import strava_service, weather_service, snowdepth_service, avalanche_service
 from config import yr_constants
 
@@ -54,8 +54,13 @@ def yr_snow_test():
     snowdepth_service.get_snow_depths_for_region(yr_constants.ROMSDALEN_ID)
 
 
-def avalanche_test():
-    avalanche_service.get_report_last_week()
+def avalanche_test(report):
+    return avalanche_forecast.AvalancheReport.from_dict(report)
+
+
+def map_res_avy():
+    for report in map(avalanche_test, avalanche_service.get_report_last_week()):
+        print(report)
 
 
 def get_athlete_test():

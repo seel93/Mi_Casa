@@ -22,7 +22,7 @@ if __name__ == '__main__':
     api_test.yr_location_forecast_test(yr_constants.SKEI_LOCATION_ID)
     api_test.yr_snow_test()
     logging.info('yr tests completed')
-    api_test.avalanche_test()
+    api_test.map_res_avy()
     api_test.get_athlete_test()
     api_test.get_activity_test()
     api_test.get_activities_test()
