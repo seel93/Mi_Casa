@@ -3,6 +3,14 @@ import logging
 from config import yr_constants
 
 
+def check_api_health():
+    try:
+        return requests.get(f'{yr_constants.YR_API_URL}/health').status_code == '200'
+    except requests.exceptions.HTTPError as err:
+        logging.error(f'yr api not available: {err}')
+        raise SystemExit(err)
+
+
 def yr_location_summary(payload_lat_lon):
     try:
         payload = {'lat': payload_lat_lon[0], 'lon': payload_lat_lon[1]}

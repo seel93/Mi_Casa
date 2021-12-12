@@ -9,7 +9,7 @@ pipenv sync
 ```
 #### run: 
 ```bash
-pienv run python3 main.py
+pipenv run python3 main.py
 ``` 
 
 ### Docker:
