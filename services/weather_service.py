@@ -1,6 +1,8 @@
 import requests
 import logging
 from config import yr_constants
+from dao import location_forecast
+from dao.location_forecast import LocationForecast
 
 
 def check_api_health():
@@ -39,3 +41,16 @@ def yr_location_forecast(location_id):
     except requests.exceptions.HTTPError as err:
         logging.error(f'{yr_constants.YR_API_URL}/locations/{location_id}/forecast failed: {err}')
         raise SystemExit(err)
+
+
+def check_for_snow(location_id):
+    return filter(find_days_with_snow, [location_forecast.LocationForecast.from_dict(x) for x in
+                                        yr_location_forecast(location_id).get('dayIntervals')])
+
+
+def find_days_with_snow(forecast: LocationForecast):
+    logging.info(forecast.temperature.max)
+    return forecast.precipitation.value > 0.5 \
+           and forecast.precipitation.probability >= 50 \
+           and forecast.wind.max < 15 \
+           and forecast.temperature.max < 1.0

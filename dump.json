@@ -1,15 +1,1265 @@
 {
-  'RegId': 279615,
-  'RegionId': 3028,
-  'RegionName': 'Jotunheimen',
-  'RegionTypeId': 0,
-  'RegionTypeName': 'Ikke gitt',
-  'DangerLevel': '2',
-  'ValidFrom': '2021-12-09T00:00:00',
-  'ValidTo': '2021-12-09T23:59:59',
-  'NextWarningTime': '2021-12-10T16:00:00',
-  'PublishTime': '2021-12-08T15:15:40.003',
-  'MainText': 'Vær forsiktig i leområder med fokksnø. Det finnes områder med svake lag under den vindtransporterte snøen.',
-  'LangKey': 1
+  'region': {
+    'id': '15',
+    'name': 'Møre og Romsdal'
+  },
+  'dates': [
+    '2021-12-16T00:00:00+00:00',
+    '2021-12-15T00:00:00+00:00',
+    '2021-12-14T00:00:00+00:00'
+  ],
+  'stations': [
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 4.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 4.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 5.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 7.0
+        }
+      ],
+      'name': 'Grønning',
+      'stationId': 'SN60620',
+      'validFrom': '1972-11-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-60620',
+        'name': 'Grønning',
+        'position': {
+          'lat': 62.3292,
+          'lon': 7.5134209
+        },
+        'elevation': 312,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Fjord/Grønning',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1578',
+          'name': 'Fjord'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 0.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 0.0
+        }
+      ],
+      'name': 'Norddal',
+      'stationId': 'SN60400',
+      'validFrom': '1895-07-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-60400',
+        'name': 'Norddal',
+        'position': {
+          'lat': 62.2477,
+          'lon': 7.2392
+        },
+        'elevation': 28,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Fjord/Norddal',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1578',
+          'name': 'Fjord'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 0.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 6.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 12.0
+        }
+      ],
+      'name': 'Eide på Nordmøre',
+      'stationId': 'SN62900',
+      'validFrom': '1923-01-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-62900',
+        'name': 'Eide på Nordmøre',
+        'position': {
+          'lat': 62.8915,
+          'lon': 7.3905
+        },
+        'elevation': 49,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Hustadvika/Eide på Nordmøre',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1579',
+          'name': 'Hustadvika'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 11.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 11.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 17.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 21.0
+        }
+      ],
+      'name': 'E39 Fursetfjellet',
+      'stationId': 'SN62200',
+      'validFrom': '2014-12-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-62200',
+        'name': 'E39 Fursetfjellet',
+        'position': {
+          'lat': 62.8275,
+          'lon': 7.6048
+        },
+        'elevation': 210,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Molde/E39 Fursetfjellet',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1506',
+          'name': 'Molde'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 0.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 0.0
+        }
+      ],
+      'name': 'Eresfjord',
+      'stationId': 'SN61820',
+      'validFrom': '1959-01-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-61820',
+        'name': 'Eresfjord',
+        'position': {
+          'lat': 62.663,
+          'lon': 8.105
+        },
+        'elevation': 14,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Molde/Eresfjord',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1506',
+          'name': 'Molde'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 10.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 10.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 14.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 17.0
+        }
+      ],
+      'name': 'FV660 Vistdalsheia',
+      'stationId': 'SN61810',
+      'validFrom': '2015-11-04T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-61810',
+        'name': 'FV660 Vistdalsheia',
+        'position': {
+          'lat': 62.6578,
+          'lon': 8.0425
+        },
+        'elevation': 500,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Molde/FV660 Vistdalsheia',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1506',
+          'name': 'Molde'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-15T01:00:00+01:00',
+        'depth': 30.0
+      },
+      'snowDepths': [
+        {},
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 30.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 33.0
+        }
+      ],
+      'name': 'Istad Kraftstasjon',
+      'stationId': 'SN62160',
+      'validFrom': '1980-09-01T02:00:00+02:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-62160',
+        'name': 'Istad Kraftstasjon',
+        'position': {
+          'lat': 62.805,
+          'lon': 7.7002
+        },
+        'elevation': 20,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Molde/Istad Kraftstasjon',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1506',
+          'name': 'Molde'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 16.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 16.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 22.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 27.0
+        }
+      ],
+      'name': 'Molde - Hindalsrøra',
+      'stationId': 'SN62295',
+      'validFrom': '2016-10-21T02:00:00+02:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-62295',
+        'name': 'Molde - Hindalsrøra',
+        'position': {
+          'lat': 62.756,
+          'lon': 7.2088
+        },
+        'elevation': 258,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Molde/Molde - Hindalsrøra',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1506',
+          'name': 'Molde'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 94.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 94.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 84.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 88.0
+        }
+      ],
+      'name': 'Mannen',
+      'stationId': 'SN61410',
+      'validFrom': '2010-03-12T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-61410',
+        'name': 'Mannen',
+        'position': {
+          'lat': 62.4555,
+          'lon': 7.7703
+        },
+        'elevation': 1294,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Rauma/Mannen',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1539',
+          'name': 'Rauma'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 6.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 6.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 8.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 12.0
+        }
+      ],
+      'name': 'Marstein',
+      'stationId': 'SN61420',
+      'validFrom': '2010-02-22T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-61420',
+        'name': 'Marstein',
+        'position': {
+          'lat': 62.4458,
+          'lon': 7.8355
+        },
+        'elevation': 67,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Rauma/Marstein',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1539',
+          'name': 'Rauma'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 0.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 3.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 7.0
+        }
+      ],
+      'name': 'Smøla - Moldstad',
+      'stationId': 'SN65370',
+      'validFrom': '1963-10-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-65370',
+        'name': 'Smøla - Moldstad',
+        'position': {
+          'lat': 63.4197,
+          'lon': 8.063
+        },
+        'elevation': 30,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Smøla/Smøla - Moldstad',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1573',
+          'name': 'Smøla'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 4.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 4.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 8.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 12.0
+        }
+      ],
+      'name': 'FV60 Kjellstadlia',
+      'stationId': 'SN60247',
+      'validFrom': '2014-12-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-60247',
+        'name': 'FV60 Kjellstadlia',
+        'position': {
+          'lat': 62.028,
+          'lon': 6.7288
+        },
+        'elevation': 391,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Stranda/FV60 Kjellstadlia',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1525',
+          'name': 'Stranda'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 25.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 25.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 27.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 35.0
+        }
+      ],
+      'name': 'FV60 Strandafjellet',
+      'stationId': 'SN60225',
+      'validFrom': '2016-04-12T02:00:00+02:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-60225',
+        'name': 'FV60 Strandafjellet',
+        'position': {
+          'lat': 62.2915,
+          'lon': 6.7928
+        },
+        'elevation': 504,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Stranda/FV60 Strandafjellet',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1525',
+          'name': 'Stranda'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 16.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 16.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 15.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 21.0
+        }
+      ],
+      'name': 'FV63 Korsmyra',
+      'stationId': 'SN60310',
+      'validFrom': '2015-11-04T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-60310',
+        'name': 'FV63 Korsmyra',
+        'position': {
+          'lat': 62.1362,
+          'lon': 7.1848
+        },
+        'elevation': 620,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Stranda/FV63 Korsmyra',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1525',
+          'name': 'Stranda'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 7.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 7.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 10.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 14.0
+        }
+      ],
+      'name': 'FV650 Liabygda',
+      'stationId': 'SN60670',
+      'validFrom': '2014-09-11T02:00:00+02:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-60670',
+        'name': 'FV650 Liabygda',
+        'position': {
+          'lat': 62.3285,
+          'lon': 7.0663
+        },
+        'elevation': 318,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Stranda/FV650 Liabygda',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1525',
+          'name': 'Stranda'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 20.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 20.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 9.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 12.0
+        }
+      ],
+      'name': 'Hafsås',
+      'stationId': 'SN63530',
+      'validFrom': '1977-10-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-63530',
+        'name': 'Hafsås',
+        'position': {
+          'lat': 62.5095,
+          'lon': 8.9773
+        },
+        'elevation': 698,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Sunndal/Hafsås',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1563',
+          'name': 'Sunndal'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 11.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 11.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 15.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 17.0
+        }
+      ],
+      'name': 'Innerdalen',
+      'stationId': 'SN64700',
+      'validFrom': '1898-07-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-64700',
+        'name': 'Innerdalen',
+        'position': {
+          'lat': 62.722,
+          'lon': 8.7753
+        },
+        'elevation': 405,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Sunndal/Innerdalen',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1563',
+          'name': 'Sunndal'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 0.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 0.0
+        }
+      ],
+      'name': 'Sunndalsøra III',
+      'stationId': 'SN63420',
+      'validFrom': '1954-06-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-63420',
+        'name': 'Sunndalsøra III',
+        'position': {
+          'lat': 62.6785,
+          'lon': 8.5473
+        },
+        'elevation': 6,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Sunndal/Sunndalsøra III',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1563',
+          'name': 'Sunndal'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 0.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 0.0
+        }
+      ],
+      'name': 'Øksendal',
+      'stationId': 'SN63100',
+      'validFrom': '1895-07-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-63100',
+        'name': 'Øksendal',
+        'position': {
+          'lat': 62.6855,
+          'lon': 8.4219
+        },
+        'elevation': 47,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Sunndal/Øksendal',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1563',
+          'name': 'Sunndal'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 18.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 18.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 23.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 26.0
+        }
+      ],
+      'name': 'Tågdalen',
+      'stationId': 'SN64870',
+      'validFrom': '2007-11-21T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-64870',
+        'name': 'Tågdalen',
+        'position': {
+          'lat': 63.0493,
+          'lon': 9.0878
+        },
+        'elevation': 410,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Surnadal/Tågdalen',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1566',
+          'name': 'Surnadal'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 0.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 7.0
+        }
+      ],
+      'name': 'E39 Ørskogfjell',
+      'stationId': 'SN61070',
+      'validFrom': '2011-01-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-61070',
+        'name': 'E39 Ørskogfjell',
+        'position': {
+          'lat': 62.5325,
+          'lon': 6.949
+        },
+        'elevation': 305,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Vestnes/E39 Ørskogfjell',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1535',
+          'name': 'Vestnes'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 0.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 0.0
+        }
+      ],
+      'name': 'E39 Kvivsveien',
+      'stationId': 'SN69661',
+      'validFrom': '2014-09-11T02:00:00+02:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-69661',
+        'name': 'E39 Kvivsveien',
+        'position': {
+          'lat': 62.0385,
+          'lon': 6.4187
+        },
+        'elevation': 80,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Volda/E39 Kvivsveien',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1577',
+          'name': 'Volda'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 9.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 9.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 12.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 15.0
+        }
+      ],
+      'name': 'Hornindal',
+      'stationId': 'SN58960',
+      'validFrom': '1895-01-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-58960',
+        'name': 'Hornindal',
+        'position': {
+          'lat': 62.0033,
+          'lon': 6.6502
+        },
+        'elevation': 349,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Volda/Hornindal',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1577',
+          'name': 'Volda'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 43.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 43.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 45.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 54.0
+        }
+      ],
+      'name': 'Ørsta - Eitrefjell',
+      'stationId': 'SN59695',
+      'validFrom': '2014-12-04T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-59695',
+        'name': 'Ørsta - Eitrefjell',
+        'position': {
+          'lat': 62.16,
+          'lon': 6.2877
+        },
+        'elevation': 690,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Ørsta/Ørsta - Eitrefjell',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1520',
+          'name': 'Ørsta'
+        }
+      }
+    },
+    {
+      'snow': {
+        'time': '2021-12-16T01:00:00+01:00',
+        'depth': 0.0
+      },
+      'snowDepths': [
+        {
+          'time': '2021-12-16T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-15T01:00:00+01:00',
+          'depth': 0.0
+        },
+        {
+          'time': '2021-12-14T01:00:00+01:00',
+          'depth': 0.0
+        }
+      ],
+      'name': 'Ørskog',
+      'stationId': 'SN60800',
+      'validFrom': '1895-07-01T01:00:00+01:00',
+      'location': {
+        'category': {
+          'id': 'EC03',
+          'name': 'Meteorological station'
+        },
+        'id': '5-60800',
+        'name': 'Ørskog',
+        'position': {
+          'lat': 62.4775,
+          'lon': 6.8167
+        },
+        'elevation': 5,
+        'timeZone': 'Europe/Oslo',
+        'urlPath': 'Norge/Møre og Romsdal/Ålesund/Ørskog',
+        'country': {
+          'id': 'NO',
+          'name': 'Norge'
+        },
+        'region': {
+          'id': '15',
+          'name': 'Møre og Romsdal'
+        },
+        'subregion': {
+          'id': '1507',
+          'name': 'Ålesund'
+        }
+      }
+    }
+  ],
+  '_links': {
+    'self': {
+      'href': '/api/v0/observations/snowdepths/regions/15'
+    }
+  }
 }
-}, {'RegId': 279743, 'RegionId': 3028, 'RegionName': 'Jotunheimen', 'RegionTypeId': 0, 'RegionTypeName': 'Ikke gitt', 'DangerLevel': '2', 'ValidFrom': '2021-12-11T00:00:00', 'ValidTo': '2021-12-11T23:59:59', 'NextWarningTime': '2021-12-12T16:00:00', 'PublishTime': '2021-12-09T15:19:47.067', 'MainText': 'Vær forsiktig i leområder med fokksnø. Det finnes områder med svake lag under den vindtransporterte snøen.', 'LangKey': 1}]

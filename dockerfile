@@ -7,6 +7,7 @@ WORKDIR /Mi_Casa2
 
 RUN pip install pipenv
 
-RUN pipenv install --system --deploy
 
-CMD ["python", "main.py"]
+#RUN pipenv install --system --deploy
+RUN pipenv install
+CMD ["pipenv", "run", "python", "./main.py"]

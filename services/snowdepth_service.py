@@ -9,11 +9,7 @@ def get_snow_depths_for_region(region_id):
         res = requests.get(
             f'{yr_constants.YR_API_URL}/observations/snowdepths/regions/{region_id}',
             headers=yr_constants.YR_HEADERS).json()
-        return snow_depth.SnowDepth(
-            name=res.get('region').get('name'),
-            dates=res.get('dates'),
-            stations=res.get('stations')
-        )
+        return snow_depth.SnowDepthReport.from_dict(res)
     except requests.exceptions.HTTPError as err:
         logging.error(
             f'{yr_constants.YR_API_URL}/observations/snowdepths/regions/{region_id} failed: {err}')
